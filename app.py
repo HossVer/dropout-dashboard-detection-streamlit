@@ -17,7 +17,7 @@ from sklearn.preprocessing import MinMaxScaler, LabelEncoder
 def load_dashboard():
     # Gambar snapshot dari Tableau (ganti URL sesuai dengan dashboard kamu)
     tableau_image_url = "assets/dashboard/Dashboard 1.png"
-    tableau_url = "https://public.tableau.com/views/EmployeeAttritionAnalysis_17453257769940/Dashboard1"
+    tableau_url = "https://public.tableau.com/views/JayaJayaInstituteDropoutAnalysis/DropoutParameterDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link"
     
     # Menampilkan gambar statis dengan tautan ke Tableau Public
     st.image(tableau_image_url, caption="Klik untuk melihat Dashboard Tableau")
